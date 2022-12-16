@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Neue Machina';
+  src: url(/src/fonts/NeueMachinaRegular400.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Neue Machina Bold';
+  src: url(/src/fonts/NeueMachina-Ultrabold.otf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Neue Machina';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-main {
+  font-family: 'Neue Machina Bold';
 }
 
-.App-link {
-  color: #61dafb;
+.app {
+  background-color: rgba(0, 0, 0, 0.978) !important;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-p {
+  background-color: #212529 !important;
+  opacity: 0.8;
+  background: repeating-linear-gradient(45deg, black, black 2px, rgba(0, 0, 0, 0.495) 2px, rgba(0, 0, 0, 0.376) 25px);
+}
+/* .active{
+  border-bottom: 2px solid yellow !important;
+} */
+.logo{
+  width: 80px;
+  height: 80px;
 }
